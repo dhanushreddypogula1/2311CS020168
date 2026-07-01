@@ -1,6 +1,6 @@
 import { Log } from "./src/logger.js";
 
-const TOKEN = "your_token_here";
+const TOKEN = "your_token_here"; // Replace with your actual JWT token
 async function test() {
   try {
     const result = await Log(
